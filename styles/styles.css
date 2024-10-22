@@ -1,0 +1,57 @@
+/*
+*{
+    background-color: black;
+}
+*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 30px;
+    align-items: center;
+}
+.name {
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.nav-manu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+  .btn {
+    background-color: orangered;
+    color: white;
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: 0px;
+  }  
+.nav-item {
+    
+    
+    margin-right: 15px;
+}
+.links {
+    text-decoration: none;
+   /* color: white;*/
+}
+.ham {
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+ 
+    .ham {
+        display: flex;
+    }
+
+    .nav-manu {
+        display: none;
+    }
+}
